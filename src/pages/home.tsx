@@ -1,12 +1,17 @@
 import { Page, HeadPage, NavbarPage, BodyPage } from "./Page";
 import image from '../../assets/images/front.png'
+import b01 from '../../assets/images/bandeira/01.png'
+import b02 from '../../assets/images/bandeira/02.png'
+import b03 from '../../assets/images/bandeira/03.png'
+import b04 from '../../assets/images/bandeira/04.png'
+import b1 from '../../assets/images/1.png'
 
 export function Home() {
 	return (
 		<Page>
 			<HeadPage
 				style={{
-					background: 'linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%,rgba(10, 20, 29, 0.95) 90%), url(../../assets/images/1.png) no-repeat center/cover'
+					background: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%,rgba(10, 20, 29, 0.95) 90%), url(${b1}) no-repeat center/cover`
 				}}
 			>
 				<NavbarPage />
@@ -28,25 +33,25 @@ export function Home() {
 						<a href="/reino/k">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src="/assets/images/bandeira/01.png"
+								src={b01}
 							/>
 						</a>
 						<a href="/reino/a">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src="/assets/images/bandeira/02.png"
+								src={b02}
 							/>
 						</a>
 						<a href="/reino/c">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src="/assets/images/bandeira/03.png"
+								src={b03}
 							/>
 						</a>
 						<a href="/reino/d">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src="/assets/images/bandeira/04.png"
+								src={b04}
 							/>
 						</a>
 					</div>

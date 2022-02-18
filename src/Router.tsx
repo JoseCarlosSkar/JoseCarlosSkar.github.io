@@ -8,14 +8,13 @@ import { ReinoD } from "./pages/reino_d";
 
 export function AppRoutes() {
 	return (
-		<Router>
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/reino/k" element={<ReinoK />} />
-				<Route path="/reino/a" element={<ReinoA />} />
-				<Route path="/reino/c" element={<ReinoC />} />
-				<Route path="/reino/d" element={<ReinoD />} />
-			</Routes >
-		</Router>
+		<Routes>
+			<Route path="/" element={<Home />} >
+				<Route path="reino/k" element={<ReinoK />} />
+				<Route path="reino/a" element={<ReinoA />} />
+				<Route path="reino/c" element={<ReinoC />} />
+				<Route path="reino/d" element={<ReinoD />} />
+			</Route>
+		</Routes >
 	)
 }
