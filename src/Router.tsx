@@ -1,8 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { Home } from "./pages/home";
-import { Cart } from "./pages/Cart";
-import { Catalog } from "./pages/Catalog";
 import { ReinoK } from "./pages/reino_k";
 import { ReinoA } from "./pages/reino_a";
 import { ReinoC } from "./pages/reino_c";
