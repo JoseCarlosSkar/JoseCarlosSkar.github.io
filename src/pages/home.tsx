@@ -51,7 +51,7 @@ export function Home() {
 						</a>
 					</div>
 					<a className="text-white  fontBlackWide max-w-sm xl:max-w-xs self-center p-1 rounded-3xl text-2xl xl:text-2xl">
-						<a href="/test">Realizar teste</a>
+						<a href="/testreino">Realizar teste</a>
 					</a>
 				</div>
 
