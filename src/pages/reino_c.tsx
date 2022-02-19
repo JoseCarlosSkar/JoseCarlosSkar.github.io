@@ -1,5 +1,4 @@
-import { Page, HeadPage, NavbarPage, BodyPage } from "./Page";
-import image from '../../assets/images/front.png'
+import { Page, HeadPage, NavbarPage, BodyPage } from "../components/Page";
 
 export function ReinoC() {
 	return (

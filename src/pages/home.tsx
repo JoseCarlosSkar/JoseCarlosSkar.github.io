@@ -1,21 +1,15 @@
-import { Page, HeadPage, NavbarPage, BodyPage } from "./Page";
-import image from '../../assets/images/front.png'
-import b01 from '../../assets/images/bandeira/01.png'
-import b02 from '../../assets/images/bandeira/02.png'
-import b03 from '../../assets/images/bandeira/03.png'
-import b04 from '../../assets/images/bandeira/04.png'
-import b1 from '../../assets/images/1.png'
+import { Page, HeadPage, NavbarPage, BodyPage } from "../components/Page";
 
 export function Home() {
 	return (
 		<Page>
 			<HeadPage
 				style={{
-					background: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%,rgba(10, 20, 29, 0.95) 90%), url(${b1}) no-repeat center/cover`
+					background: 'linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%,rgba(10, 20, 29, 0.95) 90%), url(/assets/images/1.png) no-repeat center/cover'
 				}}
 			>
 				<NavbarPage />
-				<img className="h-1/3 max-h-[350px] xl:min-h-[550px]" src={image} alt="" />
+				<img className="h-1/3 max-h-[350px] xl:min-h-[550px]" src='/assets/images/front.png' alt="" />
 			</HeadPage>
 
 			<BodyPage>
@@ -29,39 +23,36 @@ export function Home() {
 					<span className="text-white text-2xl xl:text-2xl fontBlackWide">
 						traçado!
 					</span>
+
 					<div className="py-4 flex flex-wrap flex-row justify-center">
 						<a href="/reino/k">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src={b01}
+								src='/assets/images/bandeira/01.png'
 							/>
 						</a>
 						<a href="/reino/a">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src={b02}
+								src='/assets/images/bandeira/02.png'
 							/>
 						</a>
 						<a href="/reino/c">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src={b03}
+								src='/assets/images/bandeira/03.png'
 							/>
 						</a>
 						<a href="/reino/d">
 							<img
 								className="max-h-36 xl:max-h-56 m-1 cursor-pointer"
-								src={b04}
+								src='/assets/images/bandeira/04.png'
 							/>
 						</a>
 					</div>
 					<a className="text-white  fontBlackWide max-w-sm xl:max-w-xs self-center p-1 rounded-3xl text-2xl xl:text-2xl">
 						<a href="/test">Realizar teste</a>
 					</a>
-					{/* <img
-						className="h-1/3 max-h-[450px] opacity-50 hidden lg:block"
-						src="/assets/images/backhome.png"
-					/> */}
 				</div>
 
 				<div className="container p-2 py-10 flex flex-col flex-wrap flex-1 text-center">
