@@ -1,12 +1,10 @@
 import { useEffect, useState } from 'react'
-import image2 from '../../assets/images/2.png'
-import image_logo from '../../assets/images/logo2.png'
 
 export function Page(props: { children?: JSX.Element | JSX.Element[] }) {
 	return (
 		<div
 			style={{
-				background: `linear-gradient(-90deg, rgba(10, 20, 29, 0.7), rgba(10, 20, 29, 0.7)), url(${image2}) repeat`,
+				background: 'linear-gradient(-90deg, rgba(10, 20, 29, 0.7), rgba(10, 20, 29, 0.7)), url(/assets/images/2.png) repeat',
 				animation: 'gradient 50s infinite'
 			}}
 		>
@@ -68,7 +66,7 @@ export function NavbarPage(props: { children?: JSX.Element | JSX.Element[] }) {
 			>
 				<div className='py-1 flex flex-1 flex-wrap flex-row justify-center'>
 					<a href="/">
-						<img className='max-h-16' src={image_logo} alt="" />
+						<img className='max-h-16' src='/assets/images/logo2.png' alt="" />
 					</a>
 					<button
 						className=' p-3 rounded text-white ml-auto outline-none md:hidden'

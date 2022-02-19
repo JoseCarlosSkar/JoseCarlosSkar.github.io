@@ -7,7 +7,7 @@ export function ReinoK() {
 				<NavbarPage />
 				<img
 					className="h-1/3 max-h-[300px] opacity-70 hidden md:block"
-					src='/assets/images/bandeira/01.png' alt=""
+					src={'/assets/images/bandeira/01.png'} alt=""
 				/>
 				<div className="p-4 flex flex-wrap flex-col flex-1">
 					<h1 className="pb-4 text-[#d7e0e0] text-3xl xl:text-5xl">
