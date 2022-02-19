@@ -225,28 +225,28 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 						<h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
 							Lojas
 						</h6>
-						<p className="mb-4">
+						<p className="mb-2">
 							<a target="_blank" href="https://www.amazon.com.br/Trionte-segredo-imp%C3%A9rio-Gabriel-Aquino/dp/6558686635/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Trionte&qid=1631425037&s=digital-text&sr=1-1-catcorr" className="text-gray-600">Amazon</a>
 						</p>
-						<p className="mb-4">
+						<p className="mb-2">
 							<a target="_blank" href="https://www.magazineluiza.com.br/livro-trionte-o-segredo-do-imperio/p/bd885a0gd3/li/lljl/" className="text-gray-600">Magazine Luiza</a>
 						</p>
-						<p className="mb-4">
+						<p className="mb-2">
 							<a target="_blank" href="https://www.americanas.com.br/produto/3518646210" className="text-gray-600">Americanas</a>
 						</p>
-						<p>
+						<p className="mb-2">
 							<a target="_blank" href="https://www.editoracrv.com.br/produtos/busca?assunto=Trionte+" className="text-gray-600">Editora CRV</a>
 						</p>
-						<p>
+						<p className="mb-2">
 							<a target="_blank" href="https://www.martinsfontespaulista.com.br/trionte-o-segredo-do-imperio-952129/p" className="text-gray-600">Martins fontes paulista</a>
 						</p>
-						<p>
+						<p className="mb-2">
 							<a target="_blank" href="https://www.travessa.com.br/trionte-o-segredo-do-imperio-1-ed-2021/artigo/f950ef1c-a454-4314-a4bf-97270641b212" className="text-gray-600">Livrarias da Travessa</a>
 						</p>
-						<p>
+						<p className="mb-2">
 							<a target="_blank" href="https://www.estantevirtual.com.br/editora-crv/gabriel-aquino-trionte-o-segredo-do-imperio-2993602610" className="text-gray-600">Estante Virtual</a>
 						</p>
-						<p>
+						<p className="mb-2">
 							<a target="_blank" href="https://www3.livrariacultura.com.br/trionte-o-segredo-do-imperio-2112298544/p" className="text-gray-600">Livrarias Cultura</a>
 						</p>
 					</div>
