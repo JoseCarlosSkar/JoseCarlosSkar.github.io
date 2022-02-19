@@ -26,7 +26,7 @@ function Option(props: { children?: prop_children, name: string }) {
 export function TestReino() {
 	return (
 		<Page>
-			<HeadPage height_screen={true} classname='p-4 pt-[20vh]'>
+			<HeadPage classname='p-4 pt-[20vh]'>
 				<NavbarPage />
 				<h1 className="text-3xl m-5">
 					Trionte clamou pela escolha dos reinos!
@@ -35,7 +35,8 @@ export function TestReino() {
 					A alma de um reino se mede pelas qualidades individuais de cada
 					cidadão e a fé na justiça de Sua Majestade e seu deus.
 				</h2>
-
+			</HeadPage>
+			<BodyPage>
 				<Card question="Pergaminho N°1 Como você resolve seus problemas cotidianos?">
 					<Option name="1">
 						Eu costumo resolver os problemas com dedicação e coragem.
@@ -128,7 +129,7 @@ export function TestReino() {
 						estrvazar a raiva.
 					</Option>
 				</Card>
-			</HeadPage>
+			</BodyPage>
 		</Page>
 	)
 }
