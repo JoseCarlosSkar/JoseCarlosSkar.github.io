@@ -148,7 +148,7 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 							</path>
 						</svg>
 					</a>
-					<a href="#!" className="rounded-full border-2 border-white text-white w-9 h-9 leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out m-1">
+					<a href="https://twitter.com/OTrionteOficial" className="rounded-full border-2 border-white text-white w-9 h-9 leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out m-1">
 						<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
 							className="w-3 h-full mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 							<path fill="currentColor"
@@ -235,6 +235,18 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 						</p>
 						<p>
 							<a target="_blank" href="https://www.editoracrv.com.br/produtos/busca?assunto=Trionte+" className="text-gray-600">Editora CRV</a>
+						</p>
+						<p>
+							<a target="_blank" href="https://www.martinsfontespaulista.com.br/trionte-o-segredo-do-imperio-952129/p" className="text-gray-600">Martins fontes paulista</a>
+						</p>
+						<p>
+							<a target="_blank" href="https://www.travessa.com.br/trionte-o-segredo-do-imperio-1-ed-2021/artigo/f950ef1c-a454-4314-a4bf-97270641b212" className="text-gray-600">Livrarias da Travessa</a>
+						</p>
+						<p>
+							<a target="_blank" href="https://www.estantevirtual.com.br/editora-crv/gabriel-aquino-trionte-o-segredo-do-imperio-2993602610" className="text-gray-600">Estante Virtual</a>
+						</p>
+						<p>
+							<a target="_blank" href="https://www3.livrariacultura.com.br/trionte-o-segredo-do-imperio-2112298544/p" className="text-gray-600">Livrarias Cultura</a>
 						</p>
 					</div>
 
