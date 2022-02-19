@@ -194,7 +194,7 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 			</div>
 
 			<div className="mx-6 py-10 text-center md:text-left">
-				<div className="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+				<div className="grid grid-1 md:grid-cols-2 text-sm lg:grid-cols-4 gap-8">
 					<div className="">
 						<h6 className="
             uppercase
@@ -214,28 +214,30 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 							</svg>
 							Trionte
 						</h6>
-						<p>
-							Here you can use rows and columns to organize your footer content. Lorem ipsum dolor
-							sit amet, consectetur adipisicing elit.
+						<p>Literatura infanto-juvenil</p><br />
+						<p className='text-left'>
+							O livro conta a história de quatro reis destintos, possuidores de diferentes culturas que se entrelaçam nas "terras maravilhosas", (nomeclatura aplicada por habitantes do continente e pela própria monarquia triontina), não deixa de possuir uma magia sem igual, mais misteriosa do que em qualquer outro livro com a mesma temática. Não podemos deixar de falar da aventura em torno da batalha contra Niwdem, reino do sul que tem como principal objetivo, iniciar uma nova ordem.
 						</p>
 					</div>
+
 					<div className="">
 						<h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-							Products
+							Lojas
 						</h6>
 						<p className="mb-4">
-							<a href="#!" className="text-gray-600">Angular</a>
+							<a target="_blank" href="https://www.amazon.com.br/Trionte-segredo-imp%C3%A9rio-Gabriel-Aquino/dp/6558686635/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Trionte&qid=1631425037&s=digital-text&sr=1-1-catcorr" className="text-gray-600">Amazon</a>
 						</p>
 						<p className="mb-4">
-							<a href="#!" className="text-gray-600">React</a>
+							<a target="_blank" href="https://www.magazineluiza.com.br/livro-trionte-o-segredo-do-imperio/p/bd885a0gd3/li/lljl/" className="text-gray-600">Magazine Luiza</a>
 						</p>
 						<p className="mb-4">
-							<a href="#!" className="text-gray-600">Vue</a>
+							<a target="_blank" href="https://www.americanas.com.br/produto/3518646210" className="text-gray-600">Americanas</a>
 						</p>
 						<p>
-							<a href="#!" className="text-gray-600">Laravel</a>
+							<a target="_blank" href="https://www.editoracrv.com.br/produtos/busca?assunto=Trionte+" className="text-gray-600">Editora CRV</a>
 						</p>
 					</div>
+
 					<div className="">
 						<h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
 							Useful links
@@ -253,9 +255,10 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 							<a href="#!" className="text-gray-600">Help</a>
 						</p>
 					</div>
+
 					<div className="">
 						<h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-							Contact
+							Contato
 						</h6>
 						<p className="flex items-center justify-center md:justify-start mb-4">
 							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
@@ -264,7 +267,7 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 									d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
 								</path>
 							</svg>
-							New York, NY 10012, US
+							Curitiba, PR  83535-000, BR
 						</p>
 						<p className="flex items-center justify-center md:justify-start mb-4">
 							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
@@ -274,7 +277,7 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 									d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
 								</path>
 							</svg>
-							info@example.com
+							mr.gabriel04.07.02@hotmail.com
 						</p>
 						<p className="flex items-center justify-center md:justify-start mb-4">
 							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
@@ -284,7 +287,7 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 									d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
 								</path>
 							</svg>
-							+ 01 234 567 88
+							+55 (69) 9 81478933
 						</p>
 						<p className="flex items-center justify-center md:justify-start">
 							<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print"
@@ -294,7 +297,7 @@ export function FooterPage(props: { children?: React.ReactNode }) {
 									d="M448 192V77.25c0-8.49-3.37-16.62-9.37-22.63L393.37 9.37c-6-6-14.14-9.37-22.63-9.37H96C78.33 0 64 14.33 64 32v160c-35.35 0-64 28.65-64 64v112c0 8.84 7.16 16 16 16h48v96c0 17.67 14.33 32 32 32h320c17.67 0 32-14.33 32-32v-96h48c8.84 0 16-7.16 16-16V256c0-35.35-28.65-64-64-64zm-64 256H128v-96h256v96zm0-224H128V64h192v48c0 8.84 7.16 16 16 16h48v96zm48 72c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24s24 10.74 24 24c0 13.25-10.75 24-24 24z">
 								</path>
 							</svg>
-							+ 01 234 567 89
+							+55 (69) 9 81478933
 						</p>
 					</div>
 				</div>
