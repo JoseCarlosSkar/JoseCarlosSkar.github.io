@@ -1,4 +1,4 @@
-import { Page, HeadPage, NavbarPage, BodyPage } from "../components/Page";
+import { Page, HeadPage, NavbarPage, BodyPage, FooterPage } from "../components/Page";
 
 type prop_children = JSX.Element | JSX.Element[] | string
 
@@ -129,7 +129,10 @@ export function TestReino() {
 						estrvazar a raiva.
 					</Option>
 				</Card>
+
+				<button>Finalizar</button>
 			</BodyPage>
+			<FooterPage />
 		</Page>
 	)
 }

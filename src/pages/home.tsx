@@ -1,4 +1,4 @@
-import { Page, HeadPage, NavbarPage, BodyPage } from "../components/Page";
+import { Page, HeadPage, NavbarPage, BodyPage, FooterPage } from "../components/Page";
 
 export function Home() {
 	return (
@@ -156,7 +156,7 @@ export function Home() {
 					</p>
 				</div>
 			</BodyPage>
+			<FooterPage />
 		</Page>
-
 	)
 }

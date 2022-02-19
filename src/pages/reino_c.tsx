@@ -1,4 +1,4 @@
-import { Page, HeadPage, NavbarPage, BodyPage } from "../components/Page";
+import { Page, HeadPage, NavbarPage, BodyPage, FooterPage } from "../components/Page";
 
 export function ReinoC() {
 	return (
@@ -33,6 +33,7 @@ export function ReinoC() {
 					</div>
 				</div>
 			</HeadPage>
+			<FooterPage />
 		</Page>
 	)
 }
